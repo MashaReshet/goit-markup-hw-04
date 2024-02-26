@@ -4,27 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
-    
+    <!-- Google Fonts links -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
-    
+    <!-- Modern Normalize link -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
     />
-    
+    <!-- Own styles link -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="header">
-      <div class="container page-container">
-        <nav class="nav-saite">
-          <a class="logo" href="./index.html">Web<span class="logo-name">Studio</span></a>
-          <ul class="main-contacts">
+    <header class="page-header">
+      <div class="container page-header-container">
+        <nav class="page-navigation">
+          <a class="logo" href="./index.html">
+            Web<span class="text-black">Studio</span></a
+          >
+          <ul class="menu">
             <li class="menu-item">
               <a class="menu-link current" href="./index.html">Studio</a>
             </li>
@@ -34,15 +36,15 @@
             <li class="menu-item"><a class="menu-link" href="">Contacts</a></li>
           </ul>
         </nav>
-        <address class="address">
-          <ul class="my-info">
+        <address class="page-address">
+          <ul class="address-menu">
             <li class="address-items">
-              <a class="info-link" href="mailto:info@devstudio.com"
+              <a class="address-link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
             <li class="address-items">
-              <a class="info-link" href="tel:+110001111111"
+              <a class="address-link" href="tel:+110001111111"
                 >+11 (000) 111-11-11</a
               >
             </li>
@@ -51,14 +53,14 @@
       </div>
     </header>
     <main>
-      <!--Hero-->
+      <!-- =========== Hero Section =========== -->
       <section class="hero">
         <div class="container">
           <h1 class="main-title">Effective Solutions for Your Business</h1>
-          <button class="order-btn" type="button">Order Service</button>
+          <button class="order-service-btn" type="button">Order Service</button>
         </div>
       </section>
-      <!--Benefits-->
+      <!-- =========== Benefits Section =========== -->
       <section class="benefits">
         <div class="container benefits-container">
           <h2 class="visually-hidden">Our benefits</h2>
@@ -114,24 +116,20 @@
           </ul>
         </div>
       </section>
-
-
-
-
-      <!--Team-->
+      <!-- =========== Team Section =========== -->
       <section class="team">
         <div class="container team-container">
           <h2 class="section-title">Our Team</h2>
           <ul class="team-list">
             <li class="team-list-item">
               <img
-                class="list-avatar"
+                class="team-list-avatar"
                 src="/images/MarkGuerrero.jpg"
                 alt="Mark Guerrero avatar"
                 height="260"
                 width="264"
               />
-              <div class="list-container">
+              <div class="team-list-container">
                 <h3 class="team-list-title">Mark Guerrero</h3>
                 <p class="team-list-text">Product Designer</p>
                 <ul class="social-list">
@@ -141,7 +139,7 @@
                         class="social-list-icon"
                         width="16"
                         height="16"
-                        aria-label="icon-Ellipse"
+                        aria-label="Ellipse"
                       >
                         <use href="/images/icons.svg#icon-Ellipse"></use>
                       </svg>
@@ -194,7 +192,7 @@
                 height="260"
                 width="264"
               />
-              <div class="list-container">
+              <div class="team-list-container">
                 <h3 class="team-list-title">Tom Ford</h3>
                 <p class="team-list-text">Frontend Developer</p>
                 <ul class="social-list">
@@ -204,46 +202,46 @@
                         class="social-list-icon"
                         width="16"
                         height="16"
-                        aria-label="icon-Ellipse"
-                      >
-                        <use href="/images/icons.svg#icon-Ellipse"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-list-item">
-                    <a href="#" class="social-list-link">
-                      <svg
-                        class="social-list-icon"
-                        width="16"
-                        height="16"
-                        aria-label="Ellipse-1"
-                      >
-                        <use href="/images/icons.svg#icon-Ellipse-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-list-item">
-                    <a href="#" class="social-list-link">
-                      <svg
-                        class="social-list-icon"
-                        width="16"
-                        height="16"
-                        aria-label="Ellipse-2"
-                      >
-                        <use href="/images/icons.svg#icon-Ellipse-2"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-list-item">
-                    <a href="#" class="social-list-link">
-                      <svg
-                        class="social-list-icon"
-                        width="16"
-                        height="16"
-                        aria-label="icon-Ellipse-3"
-                      >
-                        <use href="/images/icons.svg#icon-Ellipse-3"></use>
-                      </svg>
+                        aria-label="Ellipse"
+                        >
+                          <use href="/images/icons.svg#icon-Ellipse"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="social-list-item">
+                      <a href="#" class="social-list-link">
+                        <svg
+                          class="social-list-icon"
+                          width="16"
+                          height="16"
+                          aria-label="Ellipse-1"
+                        >
+                          <use href="/images/icons.svg#icon-Ellipse-1"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="social-list-item">
+                      <a href="#" class="social-list-link">
+                        <svg
+                          class="social-list-icon"
+                          width="16"
+                          height="16"
+                          aria-label="Ellipse-2"
+                        >
+                          <use href="/images/icons.svg#icon-Ellipse-2"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="social-list-item">
+                      <a href="#" class="social-list-link">
+                        <svg
+                          class="social-list-icon"
+                          width="16"
+                          height="16"
+                          aria-label="Ellipse-3"
+                        >
+                          <use href="/images/icons.svg#icon-Ellipse-3"></use>
+                        </svg>
                     </a>
                   </li>
                 </ul>
@@ -258,7 +256,7 @@
                 height="260"
                 width="264"
               />
-              <div class="list-container">
+              <div class="team-list-container">
                 <h3 class="team-list-title">Camila Garcia</h3>
                 <p class="team-list-text">Marketing</p>
                 <ul class="social-list">
@@ -269,45 +267,45 @@
                         width="16"
                         height="16"
                         aria-label="Ellipse"
-                      >
-                        <use href="/images/icons.svg#icon-Ellipse"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-list-item">
-                    <a href="#" class="social-list-link">
-                      <svg
-                        class="social-list-icon"
-                        width="16"
-                        height="16"
-                        aria-label="Ellipse-1"
-                      >
-                        <use href="/images/icons.svg#icon-Ellipse-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-list-item">
-                    <a href="#" class="social-list-link">
-                      <svg
-                        class="social-list-icon"
-                        width="16"
-                        height="16"
-                        aria-label="icon-Ellipse-2"
-                      >
-                        <use href="/images/icons.svg#icon-Ellipse-2"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-list-item">
-                    <a href="#" class="social-list-link">
-                      <svg
-                        class="social-list-icon"
-                        width="16"
-                        height="16"
-                        aria-label="Ellipse-3"
-                      >
-                        <use href="/images/icons.svg#icon-Ellipse-3"></use>
-                      </svg>
+                        >
+                          <use href="/images/icons.svg#icon-Ellipse"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="social-list-item">
+                      <a href="#" class="social-list-link">
+                        <svg
+                          class="social-list-icon"
+                          width="16"
+                          height="16"
+                          aria-label="Ellipse-1"
+                        >
+                          <use href="/images/icons.svg#icon-Ellipse-1"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="social-list-item">
+                      <a href="#" class="social-list-link">
+                        <svg
+                          class="social-list-icon"
+                          width="16"
+                          height="16"
+                          aria-label="Ellipse-2"
+                        >
+                          <use href="/images/icons.svg#icon-Ellipse-2"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="social-list-item">
+                      <a href="#" class="social-list-link">
+                        <svg
+                          class="social-list-icon"
+                          width="16"
+                          height="16"
+                          aria-label="Ellipse-3"
+                        >
+                          <use href="/images/icons.svg#icon-Ellipse-3"></use>
+                        </svg>
                     </a>
                   </li>
                 </ul>
@@ -322,7 +320,7 @@
                 height="260"
                 width="264"
               />
-              <div class="list-container">
+              <div class="team-list-container">
                 <h3 class="team-list-title">Daniel Wilson</h3>
                 <p class="team-list-text">UI Designer</p>
                 <ul class="social-list">
@@ -332,46 +330,46 @@
                         class="social-list-icon"
                         width="16"
                         height="16"
-                        aria-label="icon-Ellipse"
-                      >
-                        <use href="/images/icons.svg#icon-Ellipse"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-list-item">
-                    <a href="#" class="social-list-link">
-                      <svg
-                        class="social-list-icon"
-                        width="16"
-                        height="16"
-                        aria-label="Ellipse-1"
-                      >
-                        <use href="/images/icons.svg#icon-Ellipse-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-list-item">
-                    <a href="#" class="social-list-link">
-                      <svg
-                        class="social-list-icon"
-                        width="16"
-                        height="16"
-                        aria-label="Ellipse-2"
-                      >
-                        <use href="/images/icons.svg#icon-Ellipse-2"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-list-item">
-                    <a href="#" class="social-list-link">
-                      <svg
-                        class="social-list-icon"
-                        width="16"
-                        height="16"
-                        aria-label="Ellipse-3"
-                      >
-                        <use href="/images/icons.svg#icon-Ellipse-3"></use>
-                      </svg>
+                        aria-label="Ellipse"
+                        >
+                          <use href="/images/icons.svg#icon-Ellipse"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="social-list-item">
+                      <a href="#" class="social-list-link">
+                        <svg
+                          class="social-list-icon"
+                          width="16"
+                          height="16"
+                          aria-label="Ellipse-1"
+                        >
+                          <use href="/images/icons.svg#icon-Ellipse-1"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="social-list-item">
+                      <a href="#" class="social-list-link">
+                        <svg
+                          class="social-list-icon"
+                          width="16"
+                          height="16"
+                          aria-label="Ellipse-2"
+                        >
+                          <use href="/images/icons.svg#icon-Ellipse-2"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="social-list-item">
+                      <a href="#" class="social-list-link">
+                        <svg
+                          class="social-list-icon"
+                          width="16"
+                          height="16"
+                          aria-label="Ellipse-3"
+                        >
+                          <use href="/images/icons.svg#icon-Ellipse-3"></use>
+                        </svg>
                     </a>
                   </li>
                 </ul>
@@ -380,7 +378,7 @@
           </ul>
         </div>
       </section>
-      <!--Portfolio Section-->
+      <!-- =========== Portfolio Section =========== -->
       <section class="portfolio">
         <div class="container">
           <h2 class="section-title">Our Portfolio</h2>
@@ -504,82 +502,82 @@
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
                   · Cloud Storage App
                 </p>
-            </div>
-            <div class="portfolio-container">
-              <h3 class="portfolio-list-title">Online Courses</h3>
-              <p class="portfolio-list-text">Marketing</p>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </section>
-  </main>
-  <footer class="page-footer">
-    <div class="container footer-container">
-      <div class="logo-footer-container">
-        <a class="logo-footer" href="./index.html"
-          >Web<span class="text-white-footer">Studio</span></a
-        >
-        <p class="footer-text">
-          Increase the flow of customers and sales for your business with
-          digital marketing & growth solutions.
-        </p>
-      </div>
+              </div>
+              <div class="portfolio-container">
+                <h3 class="portfolio-list-title">Online Courses</h3>
+                <p class="portfolio-list-text">Marketing</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="page-footer">
+      <div class="container footer-container">
+        <div class="logo-footer-container">
+          <a class="logo-footer" href="./index.html"
+            >Web<span class="text-white-footer">Studio</span></a
+          >
+          <p class="footer-text">
+            Increase the flow of customers and sales for your business with
+            digital marketing & growth solutions.
+          </p>
+        </div>
 
-      <div class="footer-social">
-        <p class="footer-social-text">Social media</p>
-        <ul class="footer-social-list">
-          <li class="footer-social-list-item">
-            <a href="#" class="footer-social-list-link">
-              <svg
-                class="footer-social-list-icon"
-                width="24"
-                height="24"
-                aria-label="Ellipse"
-              >
-                <use href="/images/icons.svg#icon-Ellipse"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="footer-social-list-item">
-            <a href="#" class="footer-social-list-link">
-              <svg
-                class="footer-social-list-icon"
-                width="24"
-                height="24"
-                aria-label="Ellipse-1"
-              >
-                <use href="/images/icons.svg#icon-Ellipse-1"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="footer-social-list-item">
-            <a href="#" class="footer-social-list-link">
-              <svg
-                class="footer-social-list-icon"
-                width="24"
-                height="24"
-                aria-label="Ellipse-2"
-              >
-                <use href="/images/icons.svg#icon-Ellipse-2"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="footer-social-list-item">
-            <a href="#" class="footer-social-list-link">
-              <svg
-                class="footer-social-list-icon"
-                width="24"
-                height="24"
-                aria-label="Ellipse-3"
-              >
-                <use href="/images/icons.svg#icon-Ellipse-3"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
+        <div class="footer-social">
+          <p class="footer-social-text">Social media</p>
+          <ul class="footer-social-list">
+            <li class="footer-social-list-item">
+              <a href="#" class="footer-social-list-link">
+                <svg
+                  class="footer-social-list-icon"
+                  width="24"
+                  height="24"
+                  aria-label="Ellipse"
+                        >
+                          <use href="/images/icons.svg#icon-Ellipse"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="social-list-item">
+                      <a href="#" class="social-list-link">
+                        <svg
+                          class="social-list-icon"
+                          width="16"
+                          height="16"
+                          aria-label="Ellipse-1"
+                        >
+                          <use href="/images/icons.svg#icon-Ellipse-1"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="social-list-item">
+                      <a href="#" class="social-list-link">
+                        <svg
+                          class="social-list-icon"
+                          width="16"
+                          height="16"
+                          aria-label="Ellipse-2"
+                        >
+                          <use href="/images/icons.svg#icon-Ellipse-2"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="social-list-item">
+                      <a href="#" class="social-list-link">
+                        <svg
+                          class="social-list-icon"
+                          width="16"
+                          height="16"
+                          aria-label="Ellipse-3"
+                        >
+                          <use href="/images/icons.svg#icon-Ellipse-3"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </footer>
-</body>
+    </footer>
+  </body>
 </html>
