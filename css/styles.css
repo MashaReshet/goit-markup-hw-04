@@ -126,6 +126,26 @@ ul {
         flex-direction: column;
         align-items: center;
       }
+.hero {
+    background-image: 
+    linear-gradient(rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)),
+    url(/images/people-office.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+                        
+}
+.svg {
+    display: flex;
+    height: 112px;
+    width: 264px;
+    border-radius: 1px solid #8e8f99;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4fd;
+    margin-bottom: 8px;
+}
 
 .title {
     font-family: "Roboto", sans-serif;
@@ -192,9 +212,11 @@ img {
 .quality {
     display: flex; 
     gap: 24px;
+    
 }
 .quality-item {
     width: calc((100% - 72px) / 4);
+    
 }
 
 .advantages {
