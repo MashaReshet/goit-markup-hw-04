@@ -1,4 +1,4 @@
-/*=======Common styles=======*/
+
 h1,
 h2,
 h3,
@@ -55,9 +55,10 @@ img {
   overflow: hidden;
 }
 
-/* =========== /Common styles =========== */
 
-/*=========== Page Header styles ===========*/
+
+
+
 
 .page-header {
   border-bottom: 1px solid #e7e9fc;
@@ -154,9 +155,12 @@ img {
 .address-link:focus {
   color: #404bbf;
 }
-/* =========== /Page Header styles =========== */
 
-/* =========== Hero Section styles =========== */
+
+
+
+
+
 
 .hero {
   padding: 188px 0;
@@ -211,9 +215,12 @@ img {
 .order-service-btn:focus {
   background-color: #404bbf;
 }
-/* =========== /Hero Section styles =========== */
 
-/* =========== Benefits Section styles =========== */
+
+
+
+
+
 .benefits {
   padding: 120px 0;
 }
@@ -251,9 +258,11 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-/* =========== /Benefits Section styles =========== */
 
-/* =========== Team Section styles =========== */
+
+
+
+
 .team {
   background-color: #f4f4fd;
   padding: 120px 0;
@@ -339,9 +348,10 @@ img {
   fill: #f4f4fd;
 }
 
-/* =========== /Team Section styles =========== */
 
-/* =========== Portfolio Section styles =========== */
+
+
+
 .portfolio {
   padding: 120px 0 120px 0;
 }
@@ -425,9 +435,9 @@ img {
   transform: translateY(0%);
 }
 
-/* =========== /Portfolio Section styles =========== */
 
-/* =========== Footer styles =========== */
+
+
 .page-footer {
   background-color: #2e2f42;
   padding: 100px 0;
@@ -504,10 +514,9 @@ img {
 
 .footer-social-list-link:hover,
 .footer-social-list-link:focus {
-  background-color: #246b5a;
+  background-color: #31d0aa;
 }
 
 .footer-social-list-icon {
   fill: #f4f4fd;
 }
-/* =========== /Footer styles =========== */
