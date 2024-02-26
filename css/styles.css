@@ -67,7 +67,7 @@ img {
   align-items: center;
 }
 
-.nav {
+.nav-saite {
   display: flex;
   align-items: center;
 }
@@ -92,7 +92,7 @@ img {
   color: #2e2f42;
 }
 
-.menu {
+.main-contacts {
   display: flex;
   gap: 40px;
 }
