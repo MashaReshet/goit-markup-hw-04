@@ -167,7 +167,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url("/images/people-office.jpg");
+    url("/images/people-office.jp");
   background-size: cover;
   background-color: #2e2f42;
   background-repeat: no-repeat;
@@ -504,7 +504,7 @@ img {
 
 .footer-social-list-link:hover,
 .footer-social-list-link:focus {
-  background-color: #31d0aa;
+  background-color: #246b5a;
 }
 
 .footer-social-list-icon {
