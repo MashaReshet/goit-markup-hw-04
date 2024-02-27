@@ -60,18 +60,18 @@ img {
 
 
 
-.page-header {
+.header {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-.page-header-container {
+.header-container {
   display: flex;
   align-items: center;
 }
 
-.page-navigation {
+.nav {
   display: flex;
   align-items: center;
 }
@@ -86,7 +86,7 @@ img {
   color: #4d5ae5;
   margin-right: 76px;
 }
-.text-black {
+.black {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -464,7 +464,7 @@ img {
   margin-bottom: 16px;
 }
 
-.text-white-footer {
+.text-white {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -482,7 +482,7 @@ img {
   width: 264px;
 }
 
-.footer-social-text {
+.social-text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
